@@ -1,37 +1,17 @@
 # PyBer_Analysis
-Analyze all the rideshare data from CyBer from January to early May of 2019 and create a compelling visualization for the CEO, V. Isualize.
 
-You may only be in your second week at PyBer, but there's one thing you've learned along the way that you know applies here too: if you fail to plan, you plan to fail.
+## Background
+After finalizing the PyBer Analysis, V. Isualize has asked to create a summary DataFrame of the ride-sharing data by city type using Python and Pandas. Then, using Pandas and Matplotlib, to create a multiple-line graph that shows the total weekly fares for each city type. Finally, to create a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
-So before you dive into these massive datasets, you sit down and scope out the analytical project to make sure you and Omar are on the same page about the final deliverables.
-It would be foolish to start messing around with such a large dataset without knowing exactly what you're trying to get out of it. So you and Omar have a head-to-head to clarify the process and outcomes for this project. You come up with the following list of steps and deliverables:
+## Results
 
-Import your data into a Pandas DataFrame.
-Merge your DataFrames.
-Create a bubble chart that showcases the average fare versus the total number of rides with bubble size based on the total number of drivers for each city type, including urban, suburban, and rural.
-Determine the mean, median, and mode for the following:
-The total number of rides for each city type.
-The average fares for each city type.
-The total number of drivers for each city type.
-Create box-and-whisker plots that visualize each of the following to determine if there are any outliers:
-The number of rides for each city type.
-The fares for each city type.
-The number of drivers for each city type.
-Create a pie chart that visualizes each of the following data for each city type:
-The percent of total fares.
-The percent of total rides.
-The percent of total drivers.
-Omar has approved the project scope. It's time to get to work!
+### Ride-Sharing Summary DataFrame by City Type
 
-Background
-V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+Using Python and Pandas the csv files were merged into one file using the common city column that both files shared. Then the analysis was performed by calculating independtly for each city type (rural, urban and suburban)the total number of rides, total number of drivers, and the total fares for each city type. Then using this values the average fare per ride and average fare per driver for each city type was calculated. Finally, this data was added to a new DataFrame to see the results per city type. Lastly the data in the columns were formatted to be better understood. 
 
-Overview of the analysis: Explain the purpose of the new analysis.The purpose of the new analysis is well defined.
 
-What You're Creating
-This new assignment consists of two technical analysis deliverables and a written report to present your results. You will submit the following:
 
-Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
 
 Deliverable 1: A ride-sharing summary DataFrame by city type
@@ -43,4 +23,6 @@ Summary: Based on the results, provide three business recommendations to the CEO
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
 
 Resources: city_data.csv
+
+✓There is a description of the differences in the ride-sharing data for ALL SIX metrics by city type. ✓There is a statement summarizing THREE business recommendations addressing disparities among the city types.
 
